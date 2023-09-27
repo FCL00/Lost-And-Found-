@@ -1,0 +1,61 @@
+/* Reset */
+html, 
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-form {
+  padding: 8% 0;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+}
+
+/* Bordered form */
+form {
+  text-align: center;
+  font-size: large;
+  width: 500px;
+  border: 3px solid #f1f1f1;
+  background-color: #0f0f0f; 
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 0;
+  margin: 20px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+/* Set a style for all buttons */
+.main-form button {
+  background-color: green;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 1em;
+}
